@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form Using Table in HTML</title>
+</head>
+<body style="background-color: red;">
+  <h2 align="center">Student Registration Form Using Table in HTML</h2>
+  <form>
+    <table border="1" align="center" cellpadding="10">
+      <tr>
+        <td>First Name</td>
+        <td><input type="text" maxlength="50" value="Ghanendra"></td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td><input type="text" maxlength="50" value="Yadav"></td>
+      </tr>
+      <tr>
+        <td>Email ID</td>
+        <td><input type="email" value="yghanendra@gmail.com"></td>
+      </tr>
+      <tr>
+        <td>Mobile Number</td>
+        <td><input type="text" maxlength="10" value="7642xxxxxx"></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" value="male" checked> Male
+          <input type="radio" name="gender" value="female"> Female
+        </td>
+      </tr>
+      <tr>
+        <td>Date of Birth (DOB)</td>
+        <td>
+          <select><option>Day</option></select>
+          <select><option>Month</option></select>
+          <select><option>Year</option></select>
+        </td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td><textarea rows="4" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td>City</td>
+        <td><input type="text" maxlength="50" value="Bangalore"></td>
+      </tr>
+      <tr>
+        <td>Pin Code</td>
+        <td><input type="text" maxlength="6" value="560068"></td>
+      </tr>
+      <tr>
+        <td>State</td>
+        <td><input type="text" maxlength="50" value="Karnataka"></td>
+      </tr>
+      <tr>
+        <td>Country</td>
+        <td><input type="text" value="India"></td>
+      </tr>
+      <tr>
+        <td>Hobbies</td>
+        <td>
+          <input type="checkbox" value="Drawing"> Drawing<br>
+          <input type="checkbox" value="Singing"> Singing<br>
+          <input type="checkbox" value="Dancing"> Dancing<br>
+          <input type="checkbox" value="Sketching"> Sketching<br>
+          <input type="checkbox" value="Others"> Others:
+          <input type="text" maxlength="50" value="Ex-Teaching">
+        </td>
+      </tr>
+      <tr>
+        <td>Qualification</td>
+        <td>
+          <input type="checkbox" value="High School"> High School (10th)<br>
+          <input type="checkbox" value="Higher School"> Higher School (12th)<br>
+          <input type="checkbox" value="Graduation"> Graduation (Bachelors)<br>
+          <input type="checkbox" value="Post Graduation"> Post Graduation (Masters)
+        </td>
+      </tr>
+      <tr>
+        <td>Courses Applied For</td>
+        <td>
+          <input type="checkbox" value="BCA"> BCA<br>
+          <input type="checkbox" value="B.Com"> B.Com<br>
+          <input type="checkbox" value="B.Sc"> B.Sc<br>
+          <input type="checkbox" value="BA"> BA<br>
+          <input type="checkbox" value="MCA"> MCA<br>
+          <input type="checkbox" value="M.Com"> M.Com<br>
+          <input type="checkbox" value="M.Sc"> M.Sc<br>
+          <input type="checkbox" value="MA"> MA
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
